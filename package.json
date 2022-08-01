@@ -1,0 +1,26 @@
+{
+  "name": "basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "start:dev": "SET NODE_ENV=development&& nodemon index.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bhumip_itpath@bitbucket.org/bhumip_itpath/node-js.git"
+  },
+  "author": "Vishwa Sukhadia",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/bhumip_itpath/node-js#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.13",
+    "nodemailer": "^6.7.1",
+    "paperwork": "^2.1.1"
+  }
+}
